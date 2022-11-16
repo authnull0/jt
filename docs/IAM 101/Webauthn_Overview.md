@@ -17,7 +17,7 @@ Strong authentication using asymmetric key cryptography is made possible via the
 
 Webauthn uses a Public Key stored in the server & a Private key (provided by the end-user) to authenticate the user. It was officially recognized as a W3C web standard in March 2019. Today, WebAuthn is part of the FIDO Alliance's FIDO2 specifications and the FIDO Alliance runs certification programs to ensure compliance.
 
-![webauthn](G:\jt\assets\images\newone.jpg)
+![webauthn](../../../assets/images/newone.jpg)
 
 Passwordless authentication allows users to log in without the need of remembering a password. Instead of conventional username and password,WebAuthn allows you to use the login methods already set up on your device. So using Web Authentication, you would be able to use the fingerprint sensor on your phone, or Windows Hello on your PC, or you could even use your Apple ID to login into any website. The supported methods include but are not limited to:
 
