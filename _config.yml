@@ -89,7 +89,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Authnull Home Page":
-    "Authnull.com"
+    "www.authnull.com"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
