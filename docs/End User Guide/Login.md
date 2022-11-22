@@ -13,7 +13,7 @@ nav_order: 1
 ![Login](../../../assets/images/LoginPage.png)
 
 * The user navigates to a URL in a browser and enters the username.
-* The browser prompts for previously configured authorization gesture via a roaming authenticator(phone or yubikey) or an inbuilt authenticator(PIN, biometric, etc.);
+* The browser prompts for previously configured authorization gesture via a roaming authenticator(Phone or Yubikey) or an inbuilt authenticator(PIN, biometric, etc.);
 the user complies and provides the authorization gesture.  
 * The website shows the message, "Login complete."
 
