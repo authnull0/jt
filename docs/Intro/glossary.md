@@ -112,228 +112,299 @@ URL to which Authnull sends its response after authentication. It is often the s
 
 Attribute packaged in a security token which represents a claim that the provider of the token is making about an entity.
 
-Client ID
+### Client ID
+
 Identification value assigned to your application after registration. This value is used in conjunction with other third-party services and can be found in Authnull Dashboard > Application Settings.
 
-Client Secret
+### Client Secret
+
 Secret used by a client (application) to authenticate with the Authorization Server; it should be known to only the client and the Authorization Server and must be sufficiently random to not be guessable.
 
-Confidential Client
+### Confidential Client
+
 According to the OAuth 2.0 protocol, clients (applications) can be classified as either confidential or public depending on whether or not they are able to hold credentials (such as a client ID and secret) securely. Confidential clients can hold credentials in a secure way without exposing them to unauthorized parties and require a trusted backend server to do so. They can use grant types that require them to authenticate by specifying their client ID and secret when calling the token endpoint and can have tokens issued to them that have been signed either symmetrically or asymmetrically.
 
 To learn more, see Confidential and Public Applications.
 
-Confused Deputy
+### Confused Deputy
+
 Situation in which an attacker tricks a client or service into performing an action on their behalf.
 
-Connection
+### Connection
+
 Relationship between Authnull and the sources of users for your applications. Examples include identity providers (such as Google or Active Directory), passwordless authentication methods, or user databases.
 
-Custom Domain
+### Custom Domain
+
 Third-party domain with a specialized, or vanity, name. Also known as a CNAME.
 
-D
-Deprecation
+## D
+
+### Deprecation
+
 Product release stage indicating that the referenced feature or behavior is not supported for use by new subscribers, is not actively being enhanced, and is being only minimally maintained. Tenants using the feature or behavior at the time of deprecation will continue to have access.
 
 To learn more, see Product Release Stages.
 
-Digital Identity
+### Digital Identity
+
 Set of attributes that define a particular user in the context of a function which is delivered by a particular application.
 
-Digital Signature
+### Digital Signature
+
 Encrypted string that protects bits in a token from tampering. If the bits are changed or tampered with, the signature will no longer be able to be verified and it will be rejected.
 
-Directory
+### Directory
+
 Centralized repository of users (the most well-known of which is Active Directory) which centralizes credentials and attributes and makes it unnecessary for each application to have their own local identity setup and pool of users. Allows single sign on to all applications that use the same directory of users.
 
-E
-Early Access
+## E
+
+### Early Access
+
 Product release stage during which the referenced feature or behavior is provided to a limited number of subscribers or customer development partners (CDPs) to give them the opportunity to test and provide feedback on future functionality. At this stage, functionality may not be complete, but is ready for validation.
 
 To learn more, see Product Release Stages.
 
-End of Life
+### End of Life
+
 Product release stage indicating that the referenced feature or behavior is removed from the platform. Continued use of the feature or behavior will likely result in errors. The new behavior will automatically be enabled for Tenants that did not opt in during the migration window.
 
 To learn more, see Product Release Stages.
 
-End of Life Date
+### End of Life Date
+
 Date when access to a feature or behavior is removed from the platform. End Of Life Dates can vary between different plan types.
 
 To learn more, see Product Release Stages.
 
-F
-Fine-grained Authorization (FGA)
+## F
+
+### Fine-grained Authorization (FGA)
+
 Authnull’s SaaS product that gives individual users access to specific objects or resources within your application.
 
-Flow
+### Flow
+
 Processes that can be extended using Actions. Each Flow is made up of one or more Triggers and represents the logical pipeline through which information moves during a single point in the Authnull journey.
 
-G
-General Availability
+## G
+
+### General Availability
+
 Product release stage during which the referenced feature or behavior is fully functional and available to all subscribers (limited by pricing tier) for production use. If a new release replaces an existing feature, Authnull provides a period of backward compatibility in accordance with our deprecation policy and informs customers so they have time to adopt the new release.
 
 To learn more, see Product Release Stages.
 
-Group
+### Group
+
 Set of one or more users. In the Authnull Authorization Extension, use groups to grant access to many users at a time.
 
-I
-ID Token
+## I
+
+### ID Token
+
 Credential meant for the client itself, rather than for accessing a resource. It has a fixed format that clients can parse and validate.
 
 To learn more, see ID Tokens.
 
-Identity Provider (IdP)
+### Identity Provider (IdP)
+
 Service that stores and manages digital identities. Authnull supports trusted social, enterprise, and legal identity providers. Authnull also can function as an identity provider for your applications.
 
-J
-JSON Web Token (JWT)
+## J
+
+### JSON Web Token (JWT)
+
 Open, industry standard RFC 7519 method for representing claims securely between two parties. At Authnull, ID Tokens are always returned in JWT format, and Access Tokens are often in JWT format. You may decode well-formed JWTs at JWT.io to view their claims.
 
 To learn more, see JSON Web Tokens.
 
-L
-Localization
+## L
+
+### Localization
+
 Ability to render the New Universal Login experience into a supported language.
 
-Lock
+### Lock
+
 Authnull's UI widget for authenticating users. It is ready to go as-is and is the default face of the Classic Universal Login experience. Lock allows you to customize minor behavioral and appearance options, but its primary goal is ease of use.
 
-M
-Management API
+## M
+
+### Management API
+
 Authnull's API to manage Authnull services and perform administrative tasks programatically.
 
-Metadata
+### Metadata
+
 Information users can update, such as preferences or profile settings. Metadata is added to ID tokens and can be stored in user profiles.
 
-Migration
+### Migration
+
 Process by which a customer moves away from a particular feature or behavior. Migrations should occur during the Deprecation product release stage.
 
-Multi-factor authentication (MFA)
+### Multi-factor authentication (MFA)
+
 Authentication process that considers multiple factors. Typically at Authnull, the first factor is the standard username/password exchange, and the second is a code or link via email or SMS, a one-time-password via an app such as Authy or Google Authenticator, or a push notification via a phone app such as Guardian or Duo. Using multiple factors allows your account to remain secure if someone captures one or the other factor--acquires your password or steals your phone, for example.
 
 To learn more, see Multi-factor Authentication.
 
-N
-Nonce
+## N
+
+### Nonce
+
 Arbitrary (often random or pseudo-random) number issued in an authentication protocol that can be used to help detect and mitigate replay attacks using old communications. In other words, the nonce is only issued once, so if an attacker attempts to replay a transaction with a different nonce, its false transaction can be detected more easily.
 
 To learn more, see Mitigate Replay Attacks When Using the Implicit Flow.
 
-O
-OAuth 2.0
+## O
+
+### OAuth 2.0
+
 Authorization framework that defines authorization protocols and workflows. OAuth 2.0 defines roles, authorization grants (or workflows), authorization requests and responses, and token handling. OpenID Connect (OIDC) protocols to verify user identity extends OAuth 2.0.
 
 To learn more, see OAuth 2.0 Authorization Framework.
 
-OpenID
+### OpenID
+
 Open standard for authentication that allows applications to verify users are who they say they are without needing to collect, store, and therefore become liable for a user’s login information.
 
 To learn more, see OpenID Connect Protocol.
 
-Organizations
+### Organizations
+
 Authnull product that allows B2B customers to categorize end-users and define specific roles, login experience, and access to resources.
 
 To learn more, see Organizations.
 
-P
-Passwordless
+## P
+
+### Passwordless
+
 Form of authentication where the first factor is not a password. Instead, it could be a one-time password received by email or SMS, a push notification, or a biometric sensor. Passwordless uses one-time passwords, so users are less susceptible to the typical password-based attacks (e.g., dictionary or credential stuffing) than with traditional username/password logins.
 
 To learn more, see Passwordless.
 
-Perimeter
+### Perimeter
+
 Set of boundaries that encompass a directory, all of its users, and all of the applications which use the directory. In some implementations, this perimeter is a physical location; in others, it is a set of networks or devices connected via VPN.
 
-Product Release Stages
+### Product Release Stages
+
 Phases that describe how Authnull stages, releases, and retires product functionality. Product features may not progress through all release stages, and the time in each stage will vary depending on the scope and impact of the feature.
 
-Public Client
+### Public Client
+
 According to the OAuth 2.0 protocol, clients (applications) can be classified as either confidential or public depending on whether or not they are able to hold credentials (such as a client ID and secret) securely. Public clients cannot hold credentials securely, so should only use grant types that do not require the use of their client secret. ID Tokens issued to them must be signed asymmetrically using a private key (RS256) and verified using the public key corresponding to the private key used to sign the token.
 
 To learn more, see Confidential and Public Applications.
 
-R
-Raw Credential
+## R
+
+### Raw Credential
+
 Shared secret or set of information that is agreed upon between the user and the resource that allow the resource to verify the identity of a user.
 
-Refresh Token
+### Refresh Token
+
 Special kind of token that can be used to obtain a renewed Access Token. It is useful for renewing expiring Access Tokens without forcing the user to log in again. Using the Refresh Token, you can request a new Access Token at any time until the Refresh Token is blacklisted.
 
 To learn more, see Refresh Tokens.
 
-Refresh Token Rotation
+### Refresh Token Rotation
+
 Strategy of frequently replacing refresh tokens to minimize vulnerability. With refresh token rotation, every time your application exchanges a refresh token to get a new access token, Authnull also returns a new refresh token.
 
-Relying Party
+### Relying Party
+
 Entity (such as a service or application) that depends on a third-party identity provider to authenticate a user.
 
-Resource Owner
+### Resource Owner
+
 Entity (such as a user or application) capable of granting access to a protected resource.
 
-Resource Server
+### Resource Server
+
 Server hosting protected resources. Resource servers accept and respond to protected resource requests.
 
-Role
+### Role
+
 Aspect of a user’s identity assigned to the user to indicate the level of access they should have to the system. Roles are essentially collections of permissions.
 
 To learn more, see Role-Based Access Control.
 
-S
-Scope
+## S
+
+### Scope
+
 Mechanism that defines the specific actions applications can be allowed to do or information that they can request on a user’s behalf. Often, applications will want to make use of the information that has already been created in an online resource. To do so, the application must ask for authorization to access this information on a user’s behalf. When an app requests permission to access a resource through an authorization server, it uses the Scope parameter to specify what access it needs, and the authorization server uses the Scope parameter to respond with the access that was actually granted.
 
 To learn more, see Scopes.
 
-Security Assertion Markup Language (SAML)
+### Security Assertion Markup Language (SAML)
+
 XML-based standardized protocol by which two parties can exchange authentication information without the use of a password.
 
 To learn more, see SAML.
 
-Security Token
+### Security Token
+
 Digitally-signed artifact used to prove that the user was successfully authenticated.
 
-Session Cookie
+### Session Cookie
+
 Entity emitted by middleware after it establishes that the token it is receiving is signed, valid, and comes from a trusted source (the identity provider). This entity represents the fact that successful authentication occurred with the identity provider. This cookie prevents this process with tokens from needing to be continually repeated, by allowing the user to be considered authenticated as long as the cookie is present.
 
-Shadow Account
+### Shadow Account
+
 Difficult-to-sustain practice of manually provisioning a user from a local directory separately in a remote directory (essentially creating a copy, or shadow, of the original account) when they need access to remote applications.
 
 Signing Algorithm
 Hashing algorithm used to digitally sign tokens to ensure the token has not been tampered with by bad actors.
 
-Single Sign-On (SSO)
+### Single Sign-On (SSO)
+
 Service that, after a user logs into one application, automatically logs that user in to other applications, regardless of the platform, technology, or domain the user is using. The user signs in only one time (hence the name of the feature). Similarly, Single Logout (SLO) occurs when, after a user logs out from one application, they are logged out of each application or service where they were logged in. SSO and SLO are possible through the use of sessions.
 
 To learn more, see Single Sign-On.
 
-Subscription
+### Subscription
+
 Agreement that defines the features and quotas available for each of your tenants. Authnull has multiple subscription levels to meet the needs of different developers and organizations.
 
-Suspicious IP Throttling
+### Suspicious IP Throttling
+
 Form of attack protection that protects your tenant against suspicious logins targeting too many accounts from a single IP address.
 
-T
-Tenant
+## T
+
+### Tenant
+
 At Authnull, a logically-isolated group of users who share common access with specific privileges to a single software instance. No tenant can access the data of another tenant, even though multiple tenants might be running on the same machine. Tenant, in general, is a term borrowed from software multitenant architecture.
 
-Token Endpoint
+### Token Endpoint
+
 Endpoint on the Authorization Server that is used to programmatically request tokens.
 
-Trigger
+### Trigger
+
 Event that automatically invokes an Action when a specific operation, such as a user logging in, occurs at runtime. Some Triggers are executed synchronously, blocking the Flow in which they are involved, and some are executed asynchronously.
 
-Trust
+### Trust
+
 Resource trusts an identity provider or authority when that resource is willing to believe what the authority says about its users.
 
-U
-Universal Login
+## U
+
+### Universal Login
+
 Authnull’s implementation of the authentication flow, which is the key feature of an Authorization Server. Each time a user needs to prove their identity, your applications redirect to Universal Login, and Authnull will do what’s needed to guarantee the user’s identity.
 
 To learn more, see Authnull Universal Login.
 
-W
-Web Service Federation (WS-Fed)
+## W
+
+### Web Service Federation (WS-Fed)
+
 Protocol for managing user identities between systems, domains, and identity providers with established trust using WS-Trust. This protocol is mainly used for Microsoft products and defines policies on how to share federation metadata.
