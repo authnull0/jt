@@ -27,6 +27,7 @@ Read a detailed description here.
 ### Manully Adding a New Users in Authnull
 
 1. Go to People Section using above mentioned steps.
+![People](../../../assets/images/people.jpeg)
 2. Click 'Add Person' Button on the right side of people screen.
 3. Enter 'First Name', 'Last Name', 'Phone Number' & 'Email id'.
 4. Select 'OTP Method' to allow user access via the same.
