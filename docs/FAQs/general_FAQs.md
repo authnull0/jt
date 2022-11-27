@@ -1,10 +1,9 @@
 ---
-parent: "Authnull: Overview"
+parent: "FAQs"
 layout: default
-title: " FAQs"
-nav_order: 6
+title: "General FAQs"
+nav_order: 2
 ---
-
 
 ### **Question: I lost my registered authenticating device Phone, Yubikey, Laptop?**
 

@@ -1,10 +1,9 @@
 ---
-parent: "Authnull: Overview"
+parent: "Getting Started"
 layout: default
 title: "Managing User on Authnull"
 nav_order: 8
----
-
+---  
 # Viewing/ Managing list of users on Authnull
 
 ## Viewing List of Users
@@ -51,7 +50,7 @@ Read a detailed description here.
 
 **Note :** Deactivating a user disables the user's access to their assigned applications, although they will continue to appear on the list of users. You can change thier status back to active, whenever you want.
 
-### Resetting the Credentials of a New User
+### Resetting the Credentials of a User
 
 1. Go to People Section using above mentioned steps.
 2. Search for the user you want to deactivate.

@@ -1,5 +1,5 @@
 ---
-parent: "Authnull: Overview"
+parent: "Getting Started"
 layout: default
 title: "Registration"
 nav_order: 2

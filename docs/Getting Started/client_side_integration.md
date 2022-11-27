@@ -1,5 +1,5 @@
 ---
-parent: "Authnull: Overview"
+parent: "Getting Started"
 layout: default
 title: " Client Side Integration"
 nav_order: 5
