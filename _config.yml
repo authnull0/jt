@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Authnull
+title: Auth Null
 description: Authnull help section
 baseurl: "/help" # the subpath of your site, e.g. /blog
 url: "https://www.authnull.com/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -44,7 +44,7 @@ exclude:
    - README.md
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/logo.png"
+# logo: "/assets/images/logo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
