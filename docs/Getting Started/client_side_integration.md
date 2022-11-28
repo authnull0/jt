@@ -2,7 +2,7 @@
 parent: "Getting Started"
 layout: default
 title: " Client Side Integration"
-nav_order: 5
+nav_order: 4
 ---
 # Integrating Authnull scripts to your app on client side
 

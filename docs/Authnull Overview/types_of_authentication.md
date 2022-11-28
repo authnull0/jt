@@ -4,16 +4,16 @@ layout: default
 title: " Authentication via WebAuthn"
 nav_order: 2
 ---
-# Authentication Supported by AUthnull 
+# Authentication Supported by Authnull
 
 ## Passwordless Authentication via OIDC
 
-### Inbuilt Authenticator:
+### Inbuilt Authenticator
 
 * Windows Hello
 * Biometrics
 * Apple iCloud Keychain
 
-### External Authenticator:
+### External Authenticator
 
 * FIDO2 security keys

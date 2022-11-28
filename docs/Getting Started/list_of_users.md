@@ -2,7 +2,7 @@
 parent: "Getting Started"
 layout: default
 title: "Managing User on Authnull"
-nav_order: 8
+nav_order: 6
 ---  
 # Viewing/ Managing list of users on Authnull
 
@@ -12,7 +12,7 @@ nav_order: 8
 2. Select Directory from Navigation.
 3. Select People to view the list of users.
 
-## Adding New Users to Authnull 
+## Adding New Users to Authnull
 
 There are multiple ways to add users of your organisation to Authnull. You can import users from Active Directory or add one manually via People Section in Directory.
 

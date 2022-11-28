@@ -7,7 +7,7 @@ nav_order: 2
 
 ### **Question: I lost my registered authenticating device Phone, Yubikey, Laptop?**
 
-**Answer:** 
+**Answer:**
 
 * Contact your Authnull administrator immediately if you lose your phone or suspect that it's been stolen!
 If your organization enabled Authnull's self-service feature and you had previously enrolled a second authentication device you can use Devices section in the settings to delete your lost or stolen phone.
@@ -18,7 +18,7 @@ If your organization enabled Authnull's self-service feature and you had previou
 
 ### **Question: I am not receiving push notification in my mobile?**
 
-**Answer:** 
+**Answer:**
 
 1. Open the Authnull website and tap the Edit button in the top left of the people list screen, then tap the name of the person that isn't receiving push requests.
 

@@ -7,4 +7,3 @@ has_toc: false
 ---
 
 # Getting Started
-

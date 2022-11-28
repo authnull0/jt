@@ -7,5 +7,3 @@ has_toc: false
 ---
 
 # Others
-
-
