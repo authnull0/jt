@@ -44,7 +44,7 @@ exclude:
    - README.md
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "help/assets/images/logo.png"
+logo: "/assets/images/logo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -107,7 +107,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Authnull Help Docs"
+footer_content: "Copyright (c) 2022 AuthNull Inc"
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
