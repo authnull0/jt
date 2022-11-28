@@ -2,7 +2,8 @@
 has_children: true
 layout: default
 title: "Authnull: Overview"
-nav_order: 3
+nav_order: 2
+has_toc: false
 ---
 
 # Authnull

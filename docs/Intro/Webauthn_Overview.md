@@ -2,7 +2,7 @@
 layout: default
 title: "Webauthn: Overview"
 nav_order: 1
-parent: IAM 101
+parent: Intro
 ---
 # Webauthn Overview
 
