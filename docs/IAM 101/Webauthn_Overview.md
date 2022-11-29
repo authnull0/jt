@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: "Webauthn: Overview"
 nav_order: 2
 parent: IAM 101
