@@ -1,0 +1,926 @@
+{"0": {
+    "doc": "FAQs",
+    "title": "FAQs",
+    "content": " ",
+    "url": "/help/docs/FAQs/FAQs/",
+    "relUrl": "/docs/FAQs/FAQs/"
+  },"1": {
+    "doc": "Video Tutorials",
+    "title": "Video Tutorials",
+    "content": " ",
+    "url": "/help/docs/Video%20Tutorial/Tutorial/",
+    "relUrl": "/docs/Video%20Tutorial/Tutorial/"
+  },"2": {
+    "doc": "Webauthn: Overview",
+    "title": "Webauthn Overview",
+    "content": "Webauthn is a new standard for authenticating users on the web. It offers numerous benefits over traditional methods such as username/password, two-factor authentication, and biometrics. Several more robust authentication mechanisms such as certificates and hardware tokens have been supported for specific applications but are still unreliable for the end users. A website can store and retrieve federated credentials, public keys, and passwords using the Credential Management API. These features enable users to log in without entering their passwords, view the federated account they used to access the website, and continue a session without having to go through the explicit sign-in flow for an expired session. Strong authentication using asymmetric key cryptography is made possible via the Web Authentication API, an extension of the Credential Management API enabling passwordless authentication and secure second-factor authentication without SMS texts. Webauthn uses a Public Key stored in the server &amp; a Private key (provided by the end-user) to authenticate the user. It was officially recognized as a W3C web standard in March 2019. Today, WebAuthn is part of the FIDO Alliance’s FIDO2 specifications and the FIDO Alliance runs certification programs to ensure compliance. Passwordless authentication allows users to log in without the need of remembering a password. Instead of conventional username and password,WebAuthn allows you to use the login methods already set up on your device. So using Web Authentication, you would be able to use the fingerprint sensor on your phone, or Windows Hello on your PC, or you could even use your Apple ID to login into any website. The supported methods include but are not limited to: . | Windows Hello | Fingerprint Sensors on both Laptops/Mobiles | Windows PIN | Yubikey | Face Authentication | . ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#webauthn-overview",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#webauthn-overview"
+  },"3": {
+    "doc": "Webauthn: Overview",
+    "title": "Benefits of WebAuthn",
+    "content": " ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#benefits-of-webauthn",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#benefits-of-webauthn"
+  },"4": {
+    "doc": "Webauthn: Overview",
+    "title": "Security",
+    "content": "Webauthn is more secure than traditional methods because it uses public key cryptography. This means that the user’s credentials are never sent to the server, so they can’t be intercepted and used by an attacker. ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#security",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#security"
+  },"5": {
+    "doc": "Webauthn: Overview",
+    "title": "Convenience",
+    "content": "Webauthn is also more convenient than traditional methods. For example, with biometrics, the user has to scan their fingerprint or face every time they want to log in. With Webauthn, the user can simply use their device, such as a smartphone, to log in. Support for multiple devices over multiple resources(apps). ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#convenience",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#convenience"
+  },"6": {
+    "doc": "Webauthn: Overview",
+    "title": "Enhanced customer engagement",
+    "content": " ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#enhanced-customer-engagement",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#enhanced-customer-engagement"
+  },"7": {
+    "doc": "Webauthn: Overview",
+    "title": "Customers - Frictionless login experience",
+    "content": "Since WebAuthn uses device-based authentication, the need for passwords is removed completely. For the customer, this means not having to remember your username and password when logging in, or requesting a one-time password for a step up second factor. The authentication flow is simplified for the end user to just using their registered device for authentication . ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#customers---frictionless-login-experience",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#customers---frictionless-login-experience"
+  },"8": {
+    "doc": "Webauthn: Overview",
+    "title": "Product owners - Time to Authentication, Time to market",
+    "content": "As mentioned before, WebAuthn removes the need for passwords. Product owners care about the use of their application, and removing any barriers to customers is usually their #1 goal. WebAuthn contributes to a frictionless login experience for these users. In addition, since WebAuthn removes the need to think about any complex password settings, product owners can accelerate their time to market by avoiding the need to build complex architectures to manage and store passwords. ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#product-owners---time-to-authentication-time-to-market",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#product-owners---time-to-authentication-time-to-market"
+  },"9": {
+    "doc": "Webauthn: Overview",
+    "title": "Strengthened Security Posture",
+    "content": " ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#strengthened-security-posture",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#strengthened-security-posture"
+  },"10": {
+    "doc": "Webauthn: Overview",
+    "title": "Customers - Preservation of trust",
+    "content": "Costumer trust is one of the core aspects in a business, With WebAuthn, you are getting a much more secure authentication method that subverts the risks associated with passwords. ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#customers---preservation-of-trust",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#customers---preservation-of-trust"
+  },"11": {
+    "doc": "Webauthn: Overview",
+    "title": "Security teams - Eliminate the inherent weakness of passwords",
+    "content": "WebAuthn does not rely on knowledge-based authentication such as usernames and passwords. This means that you are relying on registered devices that belong to the end user. The risk of spoofing authentication is lower because registered physical devices are harder to steal than passwords, making your security team happier. ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#security-teams---eliminate-the-inherent-weakness-of-passwords",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#security-teams---eliminate-the-inherent-weakness-of-passwords"
+  },"12": {
+    "doc": "Webauthn: Overview",
+    "title": "Reduced Organizational Load to Support Applications",
+    "content": " ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#reduced-organizational-load-to-support-applications",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#reduced-organizational-load-to-support-applications"
+  },"13": {
+    "doc": "Webauthn: Overview",
+    "title": "Support organization - Reduce support cycles for multiple factors",
+    "content": "A unique functionality of WebAuthn is using this standard as the primary method of logging in. By implementing WebAuthn, support cycles are eased, since the number of factors to enroll for will essentially reduce to just WebAuthn. ",
+    "url": "/help/docs/Intro/Webauthn_Overview/#support-organization---reduce-support-cycles-for-multiple-factors",
+    "relUrl": "/docs/Intro/Webauthn_Overview/#support-organization---reduce-support-cycles-for-multiple-factors"
+  },"14": {
+    "doc": "Webauthn: Overview",
+    "title": "Webauthn: Overview",
+    "content": " ",
+    "url": "/help/docs/Intro/Webauthn_Overview/",
+    "relUrl": "/docs/Intro/Webauthn_Overview/"
+  },"15": {
+    "doc": "Adding an App in Authnull",
+    "title": "Adding an App in Authnull",
+    "content": ". | Go to apps section via the navigation bar. | Click on “Add an App” button on the right side of your screen. | select the type of integration, FIDO2/ Webauthn or Decentralised password system. | Configure your app to Authnull by adding the following details: | . | App Name | Public URL | Logo | Field Mapping from the list of available fields. | . Note: You can add more fields by clicking on “add fields” button. | Configure Server Side Javascript by adding the code into your app. | Integrating Client side javascript. | Testing your integration | . ",
+    "url": "/help/docs/Getting%20Started/adding_app/",
+    "relUrl": "/docs/Getting%20Started/adding_app/"
+  },"16": {
+    "doc": "Authnull: Overview",
+    "title": "Authnull",
+    "content": "Authnull is a flexible, one-shop-stop solution to add authentication and authorization services to your applications. Your team and organization can avoid the cost, time, and risk that come with building your own solution to authenticate and authorize users. We are an Identity Provider Platform that provides passwordless authentication for Web Apps utilising WebAuthN / FIDO 2 standards along with Apple Passkeys out of the box. The client is responsible for both marshalling the inputs for the underlying authenticator operations, and for returning the results of the latter operations to the Web Authentication API’s callers. Authnull utilizes a FIDO2-compliant authentication method enabling the user to have a seamless &amp; highly-secure authentication. ",
+    "url": "/help/docs/Authnull%20Overview/authnull_overview/#authnull",
+    "relUrl": "/docs/Authnull%20Overview/authnull_overview/#authnull"
+  },"17": {
+    "doc": "Authnull: Overview",
+    "title": "Authnull: Overview",
+    "content": " ",
+    "url": "/help/docs/Authnull%20Overview/authnull_overview/",
+    "relUrl": "/docs/Authnull%20Overview/authnull_overview/"
+  },"18": {
+    "doc": " Client Side Integration",
+    "title": "Integrating Authnull scripts to your app on client side",
+    "content": ". WebAuth js file steps: . | Use the link in HTML file. | For Registation make a function call “registerUser” with username as a parameter in registation form. | For Login make a function call “loginUser” with username as a parameter in login form. | . ",
+    "url": "/help/docs/Getting%20Started/client_side_integration/#integrating-authnull-scripts-to-your-app-on-client-side",
+    "relUrl": "/docs/Getting%20Started/client_side_integration/#integrating-authnull-scripts-to-your-app-on-client-side"
+  },"19": {
+    "doc": " Client Side Integration",
+    "title": "Registration",
+    "content": "For Registation make a function call “registerUser” with username as a parameter in registation form. ",
+    "url": "/help/docs/Getting%20Started/client_side_integration/#registration",
+    "relUrl": "/docs/Getting%20Started/client_side_integration/#registration"
+  },"20": {
+    "doc": " Client Side Integration",
+    "title": "Login",
+    "content": "For Login make a function call “loginUser” with username as a parameter in login form. ",
+    "url": "/help/docs/Getting%20Started/client_side_integration/#login",
+    "relUrl": "/docs/Getting%20Started/client_side_integration/#login"
+  },"21": {
+    "doc": " Client Side Integration",
+    "title": " Client Side Integration",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/client_side_integration/",
+    "relUrl": "/docs/Getting%20Started/client_side_integration/"
+  },"22": {
+    "doc": "Webauthn/ FIDO2 FAQs",
+    "title": "Webauthn/ FIDO2 FAQs",
+    "content": " ",
+    "url": "/help/docs/FAQs/fido2_webauthn_FAQs/",
+    "relUrl": "/docs/FAQs/fido2_webauthn_FAQs/"
+  },"23": {
+    "doc": "General FAQs",
+    "title": "Question: I lost my registered authenticating device Phone, Yubikey, Laptop?",
+    "content": "Answer: . | Contact your Authnull administrator immediately if you lose your phone or suspect that it’s been stolen! If your organization enabled Authnull’s self-service feature and you had previously enrolled a second authentication device you can use Devices section in the settings to delete your lost or stolen phone. | If you aren’t able to log in to Authnull at all then your Authnull administrator can disable the missing phone for authentication and help you log in using another method. | While it’s important that you contact your administrator if you lose your phone, remember that your password will still protect your account. | . ",
+    "url": "/help/docs/FAQs/general_FAQs/#question-i-lost-my-registered-authenticating-device-phone-yubikey-laptop",
+    "relUrl": "/docs/FAQs/general_FAQs/#question-i-lost-my-registered-authenticating-device-phone-yubikey-laptop"
+  },"24": {
+    "doc": "General FAQs",
+    "title": "Question: I am not receiving push notification in my mobile?",
+    "content": "Answer: . | Open the Authnull website and tap the Edit button in the top left of the people list screen, then tap the name of the person that isn’t receiving push requests. | Next, tap the Get Started button in the “Missing Notifications?” section of the “Account Details” screen. Authnull Mobile performs the test. If any step fails, you’ll receive further troubleshooting suggestions. After taking the suggested actions, tap *Run test again to retry. | The steps that Push Troubleshooting performs automatically are as follows: . | . | Check device settings. | Check internet connectivity. | Check that the device can contact Authnull’s cloud service. | Attempts to send a test Authnull Push notification. | . ",
+    "url": "/help/docs/FAQs/general_FAQs/#question-i-am-not-receiving-push-notification-in-my-mobile",
+    "relUrl": "/docs/FAQs/general_FAQs/#question-i-am-not-receiving-push-notification-in-my-mobile"
+  },"25": {
+    "doc": "General FAQs",
+    "title": "General FAQs",
+    "content": " ",
+    "url": "/help/docs/FAQs/general_FAQs/",
+    "relUrl": "/docs/FAQs/general_FAQs/"
+  },"26": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/getting_started/",
+    "relUrl": "/docs/Getting%20Started/getting_started/"
+  },"27": {
+    "doc": "Glossary",
+    "title": "A",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#a",
+    "relUrl": "/docs/Intro/glossary/#a"
+  },"28": {
+    "doc": "Glossary",
+    "title": "Access Token",
+    "content": "Credential that can be used by an application to access an API. It informs the API that the bearer of the token has been authorized to access the API and perform specific actions specified by the scope that has been granted. An Access Token can be in any format, but two popular options include opaque strings and JSON Web Tokens (JWT). They should be transmitted to the API as a Bearer credential in an HTTP Authorization header. To learn more, see Access Tokens. ",
+    "url": "/help/docs/Intro/glossary/#access-token",
+    "relUrl": "/docs/Intro/glossary/#access-token"
+  },"29": {
+    "doc": "Glossary",
+    "title": "Account Linking",
+    "content": "Connecting user accounts across multiple platforms to allow users access to more than one resource or application by providing credentials one time. ",
+    "url": "/help/docs/Intro/glossary/#account-linking",
+    "relUrl": "/docs/Intro/glossary/#account-linking"
+  },"30": {
+    "doc": "Glossary",
+    "title": "Actions",
+    "content": "Secure, tenant-specific, versioned functions written in Node.js that execute at certain points during the Authnull runtime. Actions are used to customize and extend Authnull’s capabilities with custom logic. To learn more, see Actions. ",
+    "url": "/help/docs/Intro/glossary/#actions",
+    "relUrl": "/docs/Intro/glossary/#actions"
+  },"31": {
+    "doc": "Glossary",
+    "title": "Adaptive Multi-factor Authentication",
+    "content": "Multi-factor authentication (MFA) that is only triggered for users when an attempted login is determined to be a low confidence login. With Adaptive MFA, Authnull triggers MFA only when needed to add friction for bad actors while keeping the login experience unchanged for good actors. ",
+    "url": "/help/docs/Intro/glossary/#adaptive-multi-factor-authentication",
+    "relUrl": "/docs/Intro/glossary/#adaptive-multi-factor-authentication"
+  },"32": {
+    "doc": "Glossary",
+    "title": "Application",
+    "content": "Your software that relies on Authnull for authentication and identity management. Authnull supports single-page, regular web, native, and machine-to-machine applications. To learn more, see Applications in Authnull. ",
+    "url": "/help/docs/Intro/glossary/#application",
+    "relUrl": "/docs/Intro/glossary/#application"
+  },"33": {
+    "doc": "Glossary",
+    "title": "Attack Protection",
+    "content": "Features that Authnull provides to detect and mitigate attacks, including brute-force protection, suspicious IP throttling, breached password detection, bot detection, and adaptive multi-factor authentication. To learn more, see Attack Protection. ",
+    "url": "/help/docs/Intro/glossary/#attack-protection",
+    "relUrl": "/docs/Intro/glossary/#attack-protection"
+  },"34": {
+    "doc": "Glossary",
+    "title": "Audience",
+    "content": "Unique identifier of the audience for an issued token, identified within a JSON Web Token as the aud claim. The audience value is either the application (Client ID) for an ID Token or the API that is being called (API Identifier) for an Access Token. At Authnull, the Audience value sent in a request for an Access Token dictates whether that token is returned in an opaque or JWT format. ",
+    "url": "/help/docs/Intro/glossary/#audience",
+    "relUrl": "/docs/Intro/glossary/#audience"
+  },"35": {
+    "doc": "Glossary",
+    "title": "Authnull Dashboard",
+    "content": "Authnull’s primary administrator interface in which you can register your application or API, connect to a user store or another identity provider, and configure your Authnull services. ",
+    "url": "/help/docs/Intro/glossary/#authnull-dashboard",
+    "relUrl": "/docs/Intro/glossary/#authnull-dashboard"
+  },"36": {
+    "doc": "Glossary",
+    "title": "Authentication Server",
+    "content": "Server that confirms or denies a user’s identity. An authentication server does not limit the actions or resources available to the user (although it can provide context for this purpose). ",
+    "url": "/help/docs/Intro/glossary/#authentication-server",
+    "relUrl": "/docs/Intro/glossary/#authentication-server"
+  },"37": {
+    "doc": "Glossary",
+    "title": "Authorization Code",
+    "content": "Random string generated by the authorization server and returned to the application as part of the authorization response. The authorization code is relatively short-lived and is exchanged for an Access Token at the token endpoint when using the Authorization Code Flow (either with or without Proof Key for Code Exchange (PKCE)). ",
+    "url": "/help/docs/Intro/glossary/#authorization-code",
+    "relUrl": "/docs/Intro/glossary/#authorization-code"
+  },"38": {
+    "doc": "Glossary",
+    "title": "Authorization Flow",
+    "content": "Another name for Authorization Grants outlined in OAuth 2.0. Authorization flows are the workflows a resource (an application or an AIP) uses to grant requestors access. Based on the type of technology (for example, if an application can store a Client Secret) and the type of requestor, resource owners can use Authorization Code Flow, Proof of Key Code Exchange (PKCE), Resource Owner Password Credential (ROPG), Implicit, or Client Credential. ",
+    "url": "/help/docs/Intro/glossary/#authorization-flow",
+    "relUrl": "/docs/Intro/glossary/#authorization-flow"
+  },"39": {
+    "doc": "Glossary",
+    "title": "Authorization Server",
+    "content": "Centralized server that contributes to defining the boundaries of a user’s access. For example, your authorization server can control the data, tasks, and features available to a user. An authorization server does not authenticate users. It’s the role of the authentication server to verify a user’s identity. ",
+    "url": "/help/docs/Intro/glossary/#authorization-server",
+    "relUrl": "/docs/Intro/glossary/#authorization-server"
+  },"40": {
+    "doc": "Glossary",
+    "title": "B",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#b",
+    "relUrl": "/docs/Intro/glossary/#b"
+  },"41": {
+    "doc": "Glossary",
+    "title": "Bad Actors",
+    "content": "Also known as threat actors. Entity (a person or group) that poses a threat to the business or environment with the intention to cause harm. Harm can constitute physical or cyber damages, from breaking into a data center to hacking into systems with stolen credentials. ",
+    "url": "/help/docs/Intro/glossary/#bad-actors",
+    "relUrl": "/docs/Intro/glossary/#bad-actors"
+  },"42": {
+    "doc": "Glossary",
+    "title": "Beta",
+    "content": "Product release stage during which the referenced feature or behavior is provided to subscribers to give them time to explore and adopt new product capabilities while providing final feedback prior to a General Availability (GA) release. Functionality is code-complete, stable, useful in a variety of scenarios, and believed to meet or almost meet quality expectations for a GA release. Beta releases may be restricted to a select number of subscribers (private) or open to all subscribers (public). To learn more, see Product Release Stages. ",
+    "url": "/help/docs/Intro/glossary/#beta",
+    "relUrl": "/docs/Intro/glossary/#beta"
+  },"43": {
+    "doc": "Glossary",
+    "title": "Block/Unblock Users",
+    "content": "Removing or restoring a requestor’s access to a resource. Refers to the features from Authnull’s Attack Protection suite: Breached Password Detection, Brute-Force Protection, and Suspicious IP Throttling. Each service assesses login/sign-up trends and blocks IP addresses associated with suspicious activity. ",
+    "url": "/help/docs/Intro/glossary/#blockunblock-users",
+    "relUrl": "/docs/Intro/glossary/#blockunblock-users"
+  },"44": {
+    "doc": "Glossary",
+    "title": "Bot Detection",
+    "content": "Form of attack protection in which Authnull blocks suspected bot traffic by enabling a CAPTCHA during the login process. To learn more, see Bot Detection. ",
+    "url": "/help/docs/Intro/glossary/#bot-detection",
+    "relUrl": "/docs/Intro/glossary/#bot-detection"
+  },"45": {
+    "doc": "Glossary",
+    "title": "Breached Password Detection",
+    "content": "Form of attack protection in which Authnull notifies your users if they use a username/password combination that has been compromised in a data leak on a third-party website or app. To learn more, see Breached Password Detection. ",
+    "url": "/help/docs/Intro/glossary/#breached-password-detection",
+    "relUrl": "/docs/Intro/glossary/#breached-password-detection"
+  },"46": {
+    "doc": "Glossary",
+    "title": "Breaking Change",
+    "content": "Change to the Authnull platform that, to Authnull’s knowledge, will cause failures in the interoperation of the Authnull platform and customer applications. ",
+    "url": "/help/docs/Intro/glossary/#breaking-change",
+    "relUrl": "/docs/Intro/glossary/#breaking-change"
+  },"47": {
+    "doc": "Glossary",
+    "title": "Brute-force Protection",
+    "content": "Form of attack protection that safeguards against brute-force attacks that occur from a single IP address and target a single user account. To learn more, see Brute-Force Protection. ",
+    "url": "/help/docs/Intro/glossary/#brute-force-protection",
+    "relUrl": "/docs/Intro/glossary/#brute-force-protection"
+  },"48": {
+    "doc": "Glossary",
+    "title": "C",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#c",
+    "relUrl": "/docs/Intro/glossary/#c"
+  },"49": {
+    "doc": "Glossary",
+    "title": "Callback",
+    "content": "URL to which Authnull sends its response after authentication. It is often the same URL to which a user is redirected after authentication. ",
+    "url": "/help/docs/Intro/glossary/#callback",
+    "relUrl": "/docs/Intro/glossary/#callback"
+  },"50": {
+    "doc": "Glossary",
+    "title": "Claim",
+    "content": "Attribute packaged in a security token which represents a claim that the provider of the token is making about an entity. ",
+    "url": "/help/docs/Intro/glossary/#claim",
+    "relUrl": "/docs/Intro/glossary/#claim"
+  },"51": {
+    "doc": "Glossary",
+    "title": "Client ID",
+    "content": "Identification value assigned to your application after registration. This value is used in conjunction with other third-party services and can be found in Authnull Dashboard &gt; Application Settings. ",
+    "url": "/help/docs/Intro/glossary/#client-id",
+    "relUrl": "/docs/Intro/glossary/#client-id"
+  },"52": {
+    "doc": "Glossary",
+    "title": "Client Secret",
+    "content": "Secret used by a client (application) to authenticate with the Authorization Server; it should be known to only the client and the Authorization Server and must be sufficiently random to not be guessable. ",
+    "url": "/help/docs/Intro/glossary/#client-secret",
+    "relUrl": "/docs/Intro/glossary/#client-secret"
+  },"53": {
+    "doc": "Glossary",
+    "title": "Confidential Client",
+    "content": "According to the OAuth 2.0 protocol, clients (applications) can be classified as either confidential or public depending on whether or not they are able to hold credentials (such as a client ID and secret) securely. Confidential clients can hold credentials in a secure way without exposing them to unauthorized parties and require a trusted backend server to do so. They can use grant types that require them to authenticate by specifying their client ID and secret when calling the token endpoint and can have tokens issued to them that have been signed either symmetrically or asymmetrically. To learn more, see Confidential and Public Applications. ",
+    "url": "/help/docs/Intro/glossary/#confidential-client",
+    "relUrl": "/docs/Intro/glossary/#confidential-client"
+  },"54": {
+    "doc": "Glossary",
+    "title": "Confused Deputy",
+    "content": "Situation in which an attacker tricks a client or service into performing an action on their behalf. ",
+    "url": "/help/docs/Intro/glossary/#confused-deputy",
+    "relUrl": "/docs/Intro/glossary/#confused-deputy"
+  },"55": {
+    "doc": "Glossary",
+    "title": "Connection",
+    "content": "Relationship between Authnull and the sources of users for your applications. Examples include identity providers (such as Google or Active Directory), passwordless authentication methods, or user databases. ",
+    "url": "/help/docs/Intro/glossary/#connection",
+    "relUrl": "/docs/Intro/glossary/#connection"
+  },"56": {
+    "doc": "Glossary",
+    "title": "Custom Domain",
+    "content": "Third-party domain with a specialized, or vanity, name. Also known as a CNAME. ",
+    "url": "/help/docs/Intro/glossary/#custom-domain",
+    "relUrl": "/docs/Intro/glossary/#custom-domain"
+  },"57": {
+    "doc": "Glossary",
+    "title": "D",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#d",
+    "relUrl": "/docs/Intro/glossary/#d"
+  },"58": {
+    "doc": "Glossary",
+    "title": "Deprecation",
+    "content": "Product release stage indicating that the referenced feature or behavior is not supported for use by new subscribers, is not actively being enhanced, and is being only minimally maintained. Tenants using the feature or behavior at the time of deprecation will continue to have access. To learn more, see Product Release Stages. ",
+    "url": "/help/docs/Intro/glossary/#deprecation",
+    "relUrl": "/docs/Intro/glossary/#deprecation"
+  },"59": {
+    "doc": "Glossary",
+    "title": "Digital Identity",
+    "content": "Set of attributes that define a particular user in the context of a function which is delivered by a particular application. ",
+    "url": "/help/docs/Intro/glossary/#digital-identity",
+    "relUrl": "/docs/Intro/glossary/#digital-identity"
+  },"60": {
+    "doc": "Glossary",
+    "title": "Digital Signature",
+    "content": "Encrypted string that protects bits in a token from tampering. If the bits are changed or tampered with, the signature will no longer be able to be verified and it will be rejected. ",
+    "url": "/help/docs/Intro/glossary/#digital-signature",
+    "relUrl": "/docs/Intro/glossary/#digital-signature"
+  },"61": {
+    "doc": "Glossary",
+    "title": "Directory",
+    "content": "Centralized repository of users (the most well-known of which is Active Directory) which centralizes credentials and attributes and makes it unnecessary for each application to have their own local identity setup and pool of users. Allows single sign on to all applications that use the same directory of users. ",
+    "url": "/help/docs/Intro/glossary/#directory",
+    "relUrl": "/docs/Intro/glossary/#directory"
+  },"62": {
+    "doc": "Glossary",
+    "title": "E",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#e",
+    "relUrl": "/docs/Intro/glossary/#e"
+  },"63": {
+    "doc": "Glossary",
+    "title": "Early Access",
+    "content": "Product release stage during which the referenced feature or behavior is provided to a limited number of subscribers or customer development partners (CDPs) to give them the opportunity to test and provide feedback on future functionality. At this stage, functionality may not be complete, but is ready for validation. To learn more, see Product Release Stages. ",
+    "url": "/help/docs/Intro/glossary/#early-access",
+    "relUrl": "/docs/Intro/glossary/#early-access"
+  },"64": {
+    "doc": "Glossary",
+    "title": "End of Life",
+    "content": "Product release stage indicating that the referenced feature or behavior is removed from the platform. Continued use of the feature or behavior will likely result in errors. The new behavior will automatically be enabled for Tenants that did not opt in during the migration window. To learn more, see Product Release Stages. ",
+    "url": "/help/docs/Intro/glossary/#end-of-life",
+    "relUrl": "/docs/Intro/glossary/#end-of-life"
+  },"65": {
+    "doc": "Glossary",
+    "title": "End of Life Date",
+    "content": "Date when access to a feature or behavior is removed from the platform. End Of Life Dates can vary between different plan types. To learn more, see Product Release Stages. ",
+    "url": "/help/docs/Intro/glossary/#end-of-life-date",
+    "relUrl": "/docs/Intro/glossary/#end-of-life-date"
+  },"66": {
+    "doc": "Glossary",
+    "title": "F",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#f",
+    "relUrl": "/docs/Intro/glossary/#f"
+  },"67": {
+    "doc": "Glossary",
+    "title": "Fine-grained Authorization (FGA)",
+    "content": "Authnull’s SaaS product that gives individual users access to specific objects or resources within your application. ",
+    "url": "/help/docs/Intro/glossary/#fine-grained-authorization-fga",
+    "relUrl": "/docs/Intro/glossary/#fine-grained-authorization-fga"
+  },"68": {
+    "doc": "Glossary",
+    "title": "Flow",
+    "content": "Processes that can be extended using Actions. Each Flow is made up of one or more Triggers and represents the logical pipeline through which information moves during a single point in the Authnull journey. ",
+    "url": "/help/docs/Intro/glossary/#flow",
+    "relUrl": "/docs/Intro/glossary/#flow"
+  },"69": {
+    "doc": "Glossary",
+    "title": "G",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#g",
+    "relUrl": "/docs/Intro/glossary/#g"
+  },"70": {
+    "doc": "Glossary",
+    "title": "General Availability",
+    "content": "Product release stage during which the referenced feature or behavior is fully functional and available to all subscribers (limited by pricing tier) for production use. If a new release replaces an existing feature, Authnull provides a period of backward compatibility in accordance with our deprecation policy and informs customers so they have time to adopt the new release. To learn more, see Product Release Stages. ",
+    "url": "/help/docs/Intro/glossary/#general-availability",
+    "relUrl": "/docs/Intro/glossary/#general-availability"
+  },"71": {
+    "doc": "Glossary",
+    "title": "Group",
+    "content": "Set of one or more users. In the Authnull Authorization Extension, use groups to grant access to many users at a time. ",
+    "url": "/help/docs/Intro/glossary/#group",
+    "relUrl": "/docs/Intro/glossary/#group"
+  },"72": {
+    "doc": "Glossary",
+    "title": "I",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#i",
+    "relUrl": "/docs/Intro/glossary/#i"
+  },"73": {
+    "doc": "Glossary",
+    "title": "ID Token",
+    "content": "Credential meant for the client itself, rather than for accessing a resource. It has a fixed format that clients can parse and validate. To learn more, see ID Tokens. ",
+    "url": "/help/docs/Intro/glossary/#id-token",
+    "relUrl": "/docs/Intro/glossary/#id-token"
+  },"74": {
+    "doc": "Glossary",
+    "title": "Identity Provider (IdP)",
+    "content": "Service that stores and manages digital identities. Authnull supports trusted social, enterprise, and legal identity providers. Authnull also can function as an identity provider for your applications. ",
+    "url": "/help/docs/Intro/glossary/#identity-provider-idp",
+    "relUrl": "/docs/Intro/glossary/#identity-provider-idp"
+  },"75": {
+    "doc": "Glossary",
+    "title": "J",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#j",
+    "relUrl": "/docs/Intro/glossary/#j"
+  },"76": {
+    "doc": "Glossary",
+    "title": "JSON Web Token (JWT)",
+    "content": "Open, industry standard RFC 7519 method for representing claims securely between two parties. At Authnull, ID Tokens are always returned in JWT format, and Access Tokens are often in JWT format. You may decode well-formed JWTs at JWT.io to view their claims. To learn more, see JSON Web Tokens. ",
+    "url": "/help/docs/Intro/glossary/#json-web-token-jwt",
+    "relUrl": "/docs/Intro/glossary/#json-web-token-jwt"
+  },"77": {
+    "doc": "Glossary",
+    "title": "L",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#l",
+    "relUrl": "/docs/Intro/glossary/#l"
+  },"78": {
+    "doc": "Glossary",
+    "title": "Localization",
+    "content": "Ability to render the New Universal Login experience into a supported language. ",
+    "url": "/help/docs/Intro/glossary/#localization",
+    "relUrl": "/docs/Intro/glossary/#localization"
+  },"79": {
+    "doc": "Glossary",
+    "title": "Lock",
+    "content": "Authnull’s UI widget for authenticating users. It is ready to go as-is and is the default face of the Classic Universal Login experience. Lock allows you to customize minor behavioral and appearance options, but its primary goal is ease of use. ",
+    "url": "/help/docs/Intro/glossary/#lock",
+    "relUrl": "/docs/Intro/glossary/#lock"
+  },"80": {
+    "doc": "Glossary",
+    "title": "M",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#m",
+    "relUrl": "/docs/Intro/glossary/#m"
+  },"81": {
+    "doc": "Glossary",
+    "title": "Management API",
+    "content": "Authnull’s API to manage Authnull services and perform administrative tasks programatically. ",
+    "url": "/help/docs/Intro/glossary/#management-api",
+    "relUrl": "/docs/Intro/glossary/#management-api"
+  },"82": {
+    "doc": "Glossary",
+    "title": "Metadata",
+    "content": "Information users can update, such as preferences or profile settings. Metadata is added to ID tokens and can be stored in user profiles. ",
+    "url": "/help/docs/Intro/glossary/#metadata",
+    "relUrl": "/docs/Intro/glossary/#metadata"
+  },"83": {
+    "doc": "Glossary",
+    "title": "Migration",
+    "content": "Process by which a customer moves away from a particular feature or behavior. Migrations should occur during the Deprecation product release stage. ",
+    "url": "/help/docs/Intro/glossary/#migration",
+    "relUrl": "/docs/Intro/glossary/#migration"
+  },"84": {
+    "doc": "Glossary",
+    "title": "Multi-factor authentication (MFA)",
+    "content": "Authentication process that considers multiple factors. Typically at Authnull, the first factor is the standard username/password exchange, and the second is a code or link via email or SMS, a one-time-password via an app such as Authy or Google Authenticator, or a push notification via a phone app such as Guardian or Duo. Using multiple factors allows your account to remain secure if someone captures one or the other factor–acquires your password or steals your phone, for example. To learn more, see Multi-factor Authentication. ",
+    "url": "/help/docs/Intro/glossary/#multi-factor-authentication-mfa",
+    "relUrl": "/docs/Intro/glossary/#multi-factor-authentication-mfa"
+  },"85": {
+    "doc": "Glossary",
+    "title": "N",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#n",
+    "relUrl": "/docs/Intro/glossary/#n"
+  },"86": {
+    "doc": "Glossary",
+    "title": "Nonce",
+    "content": "Arbitrary (often random or pseudo-random) number issued in an authentication protocol that can be used to help detect and mitigate replay attacks using old communications. In other words, the nonce is only issued once, so if an attacker attempts to replay a transaction with a different nonce, its false transaction can be detected more easily. To learn more, see Mitigate Replay Attacks When Using the Implicit Flow. ",
+    "url": "/help/docs/Intro/glossary/#nonce",
+    "relUrl": "/docs/Intro/glossary/#nonce"
+  },"87": {
+    "doc": "Glossary",
+    "title": "O",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#o",
+    "relUrl": "/docs/Intro/glossary/#o"
+  },"88": {
+    "doc": "Glossary",
+    "title": "OAuth 2.0",
+    "content": "Authorization framework that defines authorization protocols and workflows. OAuth 2.0 defines roles, authorization grants (or workflows), authorization requests and responses, and token handling. OpenID Connect (OIDC) protocols to verify user identity extends OAuth 2.0. To learn more, see OAuth 2.0 Authorization Framework. ",
+    "url": "/help/docs/Intro/glossary/#oauth-20",
+    "relUrl": "/docs/Intro/glossary/#oauth-20"
+  },"89": {
+    "doc": "Glossary",
+    "title": "OpenID",
+    "content": "Open standard for authentication that allows applications to verify users are who they say they are without needing to collect, store, and therefore become liable for a user’s login information. To learn more, see OpenID Connect Protocol. ",
+    "url": "/help/docs/Intro/glossary/#openid",
+    "relUrl": "/docs/Intro/glossary/#openid"
+  },"90": {
+    "doc": "Glossary",
+    "title": "Organizations",
+    "content": "Authnull product that allows B2B customers to categorize end-users and define specific roles, login experience, and access to resources. To learn more, see Organizations. ",
+    "url": "/help/docs/Intro/glossary/#organizations",
+    "relUrl": "/docs/Intro/glossary/#organizations"
+  },"91": {
+    "doc": "Glossary",
+    "title": "P",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#p",
+    "relUrl": "/docs/Intro/glossary/#p"
+  },"92": {
+    "doc": "Glossary",
+    "title": "Passwordless",
+    "content": "Form of authentication where the first factor is not a password. Instead, it could be a one-time password received by email or SMS, a push notification, or a biometric sensor. Passwordless uses one-time passwords, so users are less susceptible to the typical password-based attacks (e.g., dictionary or credential stuffing) than with traditional username/password logins. To learn more, see Passwordless. ",
+    "url": "/help/docs/Intro/glossary/#passwordless",
+    "relUrl": "/docs/Intro/glossary/#passwordless"
+  },"93": {
+    "doc": "Glossary",
+    "title": "Perimeter",
+    "content": "Set of boundaries that encompass a directory, all of its users, and all of the applications which use the directory. In some implementations, this perimeter is a physical location; in others, it is a set of networks or devices connected via VPN. ",
+    "url": "/help/docs/Intro/glossary/#perimeter",
+    "relUrl": "/docs/Intro/glossary/#perimeter"
+  },"94": {
+    "doc": "Glossary",
+    "title": "Product Release Stages",
+    "content": "Phases that describe how Authnull stages, releases, and retires product functionality. Product features may not progress through all release stages, and the time in each stage will vary depending on the scope and impact of the feature. ",
+    "url": "/help/docs/Intro/glossary/#product-release-stages",
+    "relUrl": "/docs/Intro/glossary/#product-release-stages"
+  },"95": {
+    "doc": "Glossary",
+    "title": "Public Client",
+    "content": "According to the OAuth 2.0 protocol, clients (applications) can be classified as either confidential or public depending on whether or not they are able to hold credentials (such as a client ID and secret) securely. Public clients cannot hold credentials securely, so should only use grant types that do not require the use of their client secret. ID Tokens issued to them must be signed asymmetrically using a private key (RS256) and verified using the public key corresponding to the private key used to sign the token. To learn more, see Confidential and Public Applications. ",
+    "url": "/help/docs/Intro/glossary/#public-client",
+    "relUrl": "/docs/Intro/glossary/#public-client"
+  },"96": {
+    "doc": "Glossary",
+    "title": "R",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#r",
+    "relUrl": "/docs/Intro/glossary/#r"
+  },"97": {
+    "doc": "Glossary",
+    "title": "Raw Credential",
+    "content": "Shared secret or set of information that is agreed upon between the user and the resource that allow the resource to verify the identity of a user. ",
+    "url": "/help/docs/Intro/glossary/#raw-credential",
+    "relUrl": "/docs/Intro/glossary/#raw-credential"
+  },"98": {
+    "doc": "Glossary",
+    "title": "Refresh Token",
+    "content": "Special kind of token that can be used to obtain a renewed Access Token. It is useful for renewing expiring Access Tokens without forcing the user to log in again. Using the Refresh Token, you can request a new Access Token at any time until the Refresh Token is blacklisted. To learn more, see Refresh Tokens. ",
+    "url": "/help/docs/Intro/glossary/#refresh-token",
+    "relUrl": "/docs/Intro/glossary/#refresh-token"
+  },"99": {
+    "doc": "Glossary",
+    "title": "Refresh Token Rotation",
+    "content": "Strategy of frequently replacing refresh tokens to minimize vulnerability. With refresh token rotation, every time your application exchanges a refresh token to get a new access token, Authnull also returns a new refresh token. ",
+    "url": "/help/docs/Intro/glossary/#refresh-token-rotation",
+    "relUrl": "/docs/Intro/glossary/#refresh-token-rotation"
+  },"100": {
+    "doc": "Glossary",
+    "title": "Relying Party",
+    "content": "Entity (such as a service or application) that depends on a third-party identity provider to authenticate a user. ",
+    "url": "/help/docs/Intro/glossary/#relying-party",
+    "relUrl": "/docs/Intro/glossary/#relying-party"
+  },"101": {
+    "doc": "Glossary",
+    "title": "Resource Owner",
+    "content": "Entity (such as a user or application) capable of granting access to a protected resource. ",
+    "url": "/help/docs/Intro/glossary/#resource-owner",
+    "relUrl": "/docs/Intro/glossary/#resource-owner"
+  },"102": {
+    "doc": "Glossary",
+    "title": "Resource Server",
+    "content": "Server hosting protected resources. Resource servers accept and respond to protected resource requests. ",
+    "url": "/help/docs/Intro/glossary/#resource-server",
+    "relUrl": "/docs/Intro/glossary/#resource-server"
+  },"103": {
+    "doc": "Glossary",
+    "title": "Role",
+    "content": "Aspect of a user’s identity assigned to the user to indicate the level of access they should have to the system. Roles are essentially collections of permissions. To learn more, see Role-Based Access Control. ",
+    "url": "/help/docs/Intro/glossary/#role",
+    "relUrl": "/docs/Intro/glossary/#role"
+  },"104": {
+    "doc": "Glossary",
+    "title": "S",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#s",
+    "relUrl": "/docs/Intro/glossary/#s"
+  },"105": {
+    "doc": "Glossary",
+    "title": "Scope",
+    "content": "Mechanism that defines the specific actions applications can be allowed to do or information that they can request on a user’s behalf. Often, applications will want to make use of the information that has already been created in an online resource. To do so, the application must ask for authorization to access this information on a user’s behalf. When an app requests permission to access a resource through an authorization server, it uses the Scope parameter to specify what access it needs, and the authorization server uses the Scope parameter to respond with the access that was actually granted. To learn more, see Scopes. ",
+    "url": "/help/docs/Intro/glossary/#scope",
+    "relUrl": "/docs/Intro/glossary/#scope"
+  },"106": {
+    "doc": "Glossary",
+    "title": "Security Assertion Markup Language (SAML)",
+    "content": "XML-based standardized protocol by which two parties can exchange authentication information without the use of a password. To learn more, see SAML. ",
+    "url": "/help/docs/Intro/glossary/#security-assertion-markup-language-saml",
+    "relUrl": "/docs/Intro/glossary/#security-assertion-markup-language-saml"
+  },"107": {
+    "doc": "Glossary",
+    "title": "Security Token",
+    "content": "Digitally-signed artifact used to prove that the user was successfully authenticated. ",
+    "url": "/help/docs/Intro/glossary/#security-token",
+    "relUrl": "/docs/Intro/glossary/#security-token"
+  },"108": {
+    "doc": "Glossary",
+    "title": "Session Cookie",
+    "content": "Entity emitted by middleware after it establishes that the token it is receiving is signed, valid, and comes from a trusted source (the identity provider). This entity represents the fact that successful authentication occurred with the identity provider. This cookie prevents this process with tokens from needing to be continually repeated, by allowing the user to be considered authenticated as long as the cookie is present. ",
+    "url": "/help/docs/Intro/glossary/#session-cookie",
+    "relUrl": "/docs/Intro/glossary/#session-cookie"
+  },"109": {
+    "doc": "Glossary",
+    "title": "Shadow Account",
+    "content": "Difficult-to-sustain practice of manually provisioning a user from a local directory separately in a remote directory (essentially creating a copy, or shadow, of the original account) when they need access to remote applications. Signing Algorithm Hashing algorithm used to digitally sign tokens to ensure the token has not been tampered with by bad actors. ",
+    "url": "/help/docs/Intro/glossary/#shadow-account",
+    "relUrl": "/docs/Intro/glossary/#shadow-account"
+  },"110": {
+    "doc": "Glossary",
+    "title": "Single Sign-On (SSO)",
+    "content": "Service that, after a user logs into one application, automatically logs that user in to other applications, regardless of the platform, technology, or domain the user is using. The user signs in only one time (hence the name of the feature). Similarly, Single Logout (SLO) occurs when, after a user logs out from one application, they are logged out of each application or service where they were logged in. SSO and SLO are possible through the use of sessions. To learn more, see Single Sign-On. ",
+    "url": "/help/docs/Intro/glossary/#single-sign-on-sso",
+    "relUrl": "/docs/Intro/glossary/#single-sign-on-sso"
+  },"111": {
+    "doc": "Glossary",
+    "title": "Subscription",
+    "content": "Agreement that defines the features and quotas available for each of your tenants. Authnull has multiple subscription levels to meet the needs of different developers and organizations. ",
+    "url": "/help/docs/Intro/glossary/#subscription",
+    "relUrl": "/docs/Intro/glossary/#subscription"
+  },"112": {
+    "doc": "Glossary",
+    "title": "Suspicious IP Throttling",
+    "content": "Form of attack protection that protects your tenant against suspicious logins targeting too many accounts from a single IP address. ",
+    "url": "/help/docs/Intro/glossary/#suspicious-ip-throttling",
+    "relUrl": "/docs/Intro/glossary/#suspicious-ip-throttling"
+  },"113": {
+    "doc": "Glossary",
+    "title": "T",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#t",
+    "relUrl": "/docs/Intro/glossary/#t"
+  },"114": {
+    "doc": "Glossary",
+    "title": "Tenant",
+    "content": "At Authnull, a logically-isolated group of users who share common access with specific privileges to a single software instance. No tenant can access the data of another tenant, even though multiple tenants might be running on the same machine. Tenant, in general, is a term borrowed from software multitenant architecture. ",
+    "url": "/help/docs/Intro/glossary/#tenant",
+    "relUrl": "/docs/Intro/glossary/#tenant"
+  },"115": {
+    "doc": "Glossary",
+    "title": "Token Endpoint",
+    "content": "Endpoint on the Authorization Server that is used to programmatically request tokens. ",
+    "url": "/help/docs/Intro/glossary/#token-endpoint",
+    "relUrl": "/docs/Intro/glossary/#token-endpoint"
+  },"116": {
+    "doc": "Glossary",
+    "title": "Trigger",
+    "content": "Event that automatically invokes an Action when a specific operation, such as a user logging in, occurs at runtime. Some Triggers are executed synchronously, blocking the Flow in which they are involved, and some are executed asynchronously. ",
+    "url": "/help/docs/Intro/glossary/#trigger",
+    "relUrl": "/docs/Intro/glossary/#trigger"
+  },"117": {
+    "doc": "Glossary",
+    "title": "Trust",
+    "content": "Resource trusts an identity provider or authority when that resource is willing to believe what the authority says about its users. ",
+    "url": "/help/docs/Intro/glossary/#trust",
+    "relUrl": "/docs/Intro/glossary/#trust"
+  },"118": {
+    "doc": "Glossary",
+    "title": "U",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#u",
+    "relUrl": "/docs/Intro/glossary/#u"
+  },"119": {
+    "doc": "Glossary",
+    "title": "Universal Login",
+    "content": "Authnull’s implementation of the authentication flow, which is the key feature of an Authorization Server. Each time a user needs to prove their identity, your applications redirect to Universal Login, and Authnull will do what’s needed to guarantee the user’s identity. To learn more, see Authnull Universal Login. ",
+    "url": "/help/docs/Intro/glossary/#universal-login",
+    "relUrl": "/docs/Intro/glossary/#universal-login"
+  },"120": {
+    "doc": "Glossary",
+    "title": "W",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/#w",
+    "relUrl": "/docs/Intro/glossary/#w"
+  },"121": {
+    "doc": "Glossary",
+    "title": "Web Service Federation (WS-Fed)",
+    "content": "Protocol for managing user identities between systems, domains, and identity providers with established trust using WS-Trust. This protocol is mainly used for Microsoft products and defines policies on how to share federation metadata. ",
+    "url": "/help/docs/Intro/glossary/#web-service-federation-ws-fed",
+    "relUrl": "/docs/Intro/glossary/#web-service-federation-ws-fed"
+  },"122": {
+    "doc": "Glossary",
+    "title": "Glossary",
+    "content": " ",
+    "url": "/help/docs/Intro/glossary/",
+    "relUrl": "/docs/Intro/glossary/"
+  },"123": {
+    "doc": "Intro",
+    "title": "IAM 101",
+    "content": " ",
+    "url": "/help/docs/Intro/iam101/#iam-101",
+    "relUrl": "/docs/Intro/iam101/#iam-101"
+  },"124": {
+    "doc": "Intro",
+    "title": "Intro",
+    "content": " ",
+    "url": "/help/docs/Intro/iam101/",
+    "relUrl": "/docs/Intro/iam101/"
+  },"125": {
+    "doc": "Home",
+    "title": "Authnull Help Section",
+    "content": ". | IAM 101 | Authnull: Overview . | Login | Registration | Adding App in Authnull | . | Others | Video Tutorial | . ",
+    "url": "/help/#authnull-help-section",
+    "relUrl": "/#authnull-help-section"
+  },"126": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/help/",
+    "relUrl": "/"
+  },"127": {
+    "doc": "Intergrating Your Website in Authull",
+    "title": "Integrating Authnull to enable Fido2 / WebAuthn passwordless on your site",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/integrating_authnull/#integrating-authnull-to-enable-fido2--webauthn-passwordless-on-your-site",
+    "relUrl": "/docs/Getting%20Started/integrating_authnull/#integrating-authnull-to-enable-fido2--webauthn-passwordless-on-your-site"
+  },"128": {
+    "doc": "Intergrating Your Website in Authull",
+    "title": "Intergrating Your Website in Authull",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/integrating_authnull/",
+    "relUrl": "/docs/Getting%20Started/integrating_authnull/"
+  },"129": {
+    "doc": "Server Side Integration",
+    "title": "Running server side for authnull in your infrastructures",
+    "content": ". ",
+    "url": "/help/docs/Getting%20Started/integrating_server_side/#running-server-side-for-authnull-in-your-infrastructures",
+    "relUrl": "/docs/Getting%20Started/integrating_server_side/#running-server-side-for-authnull-in-your-infrastructures"
+  },"130": {
+    "doc": "Server Side Integration",
+    "title": "Server Side Integration",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/integrating_server_side/",
+    "relUrl": "/docs/Getting%20Started/integrating_server_side/"
+  },"131": {
+    "doc": "Managing User on Authnull",
+    "title": "Viewing/ Managing list of users on Authnull",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#viewing-managing-list-of-users-on-authnull",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#viewing-managing-list-of-users-on-authnull"
+  },"132": {
+    "doc": "Managing User on Authnull",
+    "title": "Viewing List of Users",
+    "content": ". | Click on the top left Navigation button. | Select Directory from Navigation. | Select People to view the list of users. | . ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#viewing-list-of-users",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#viewing-list-of-users"
+  },"133": {
+    "doc": "Managing User on Authnull",
+    "title": "Adding New Users to Authnull",
+    "content": "There are multiple ways to add users of your organisation to Authnull. You can import users from Active Directory or add one manually via People Section in Directory. ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#adding-new-users-to-authnull",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#adding-new-users-to-authnull"
+  },"134": {
+    "doc": "Managing User on Authnull",
+    "title": "Integrating Active Directory with Authnull",
+    "content": ". | Go to Integrate Active Directory Section using Navigation Bar. | Click on ‘Next’ Button. | Some Content | . Read a detailed description here. ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#integrating-active-directory-with-authnull",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#integrating-active-directory-with-authnull"
+  },"135": {
+    "doc": "Managing User on Authnull",
+    "title": "Manully Adding a New Users in Authnull",
+    "content": ". | Go to People Section using above mentioned steps. | Click ‘Add Person’ Button on the right side of people screen. | Enter ‘First Name’, ‘Last Name’, ‘Phone Number’ &amp; ‘Email id’. | Select ‘OTP Method’ to allow user access via the same. | Select single/ Multiple ‘Application’ from the drop down for assigning to the user. | Fill up other metadata. (Optional) | Click on ‘Submit’ button to add user into the list. | . ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#manully-adding-a-new-users-in-authnull",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#manully-adding-a-new-users-in-authnull"
+  },"136": {
+    "doc": "Managing User on Authnull",
+    "title": "Removing a User",
+    "content": ". | Go to People Section using above mentioned steps. | Search for the user you want to remove. | Click on the ‘more’ icon in action column. | Click on ‘Remove User’ to delete the user from the list of Users. | . ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#removing-a-user",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#removing-a-user"
+  },"137": {
+    "doc": "Managing User on Authnull",
+    "title": "Deactivating/ Disabling a User",
+    "content": ". | Go to People Section using above mentioned steps. | Search for the user you want to deactivate. | Click on the ‘more’ icon in action column. | Click on ‘Deactivate User’ to change the user’s status to ‘Disabled’. | . Note : Deactivating a user disables the user’s access to their assigned applications, although they will continue to appear on the list of users. You can change thier status back to active, whenever you want. ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#deactivating-disabling-a-user",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#deactivating-disabling-a-user"
+  },"138": {
+    "doc": "Managing User on Authnull",
+    "title": "Resetting the Credentials of a User",
+    "content": ". | Go to People Section using above mentioned steps. | Search for the user you want to deactivate. | Click on the ‘more’ icon in action column. | Click on ‘Reset Credentials’ to change the user’s credentials. | Save the changes to allow users to log into thier assigned application via new credentials. | . ",
+    "url": "/help/docs/Getting%20Started/list_of_users/#resetting-the-credentials-of-a-user",
+    "relUrl": "/docs/Getting%20Started/list_of_users/#resetting-the-credentials-of-a-user"
+  },"139": {
+    "doc": "Managing User on Authnull",
+    "title": "Managing User on Authnull",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/list_of_users/",
+    "relUrl": "/docs/Getting%20Started/list_of_users/"
+  },"140": {
+    "doc": "Login",
+    "title": "Login",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/login/",
+    "relUrl": "/docs/Getting%20Started/login/"
+  },"141": {
+    "doc": "Login",
+    "title": "Logging in with Webauthn",
+    "content": ". | The user navigates to a URL in a browser and enters the username. | The browser prompts for previously configured authorization gesture via a roaming authenticator(Phone or Yubikey) or an inbuilt authenticator(PIN, biometric, etc.); the user complies and provides the authorization gesture. | The website shows the alert, “Login complete” &amp; redirects to the homepage. | . ",
+    "url": "/help/docs/Getting%20Started/login/#logging-in-with-webauthn",
+    "relUrl": "/docs/Getting%20Started/login/#logging-in-with-webauthn"
+  },"142": {
+    "doc": "Login",
+    "title": "Logging in with Password",
+    "content": ". | The user navigates to a URL in a browser and enters the username. | User enables checkbox for authenticating via password and provides the same. | The website shows the alert, “Login complete” &amp; redirects to the homepage. | . ",
+    "url": "/help/docs/Getting%20Started/login/#logging-in-with-password",
+    "relUrl": "/docs/Getting%20Started/login/#logging-in-with-password"
+  },"143": {
+    "doc": "Others",
+    "title": "Others",
+    "content": " ",
+    "url": "/help/docs/Other/FIDO2/others/",
+    "relUrl": "/docs/Other/FIDO2/others/"
+  },"144": {
+    "doc": "Registration",
+    "title": "Registration",
+    "content": ". | The user navigates to a URL in a browser and signs up using the method they have been previously utilizing (such as the legacy method: a password) to create a new account. | The browser prompts for configuring an authorization gesture via a roaming authenticator(Phone or Yubikey) or an inbuilt authentication method(PIN, biometric, etc.); the user complies and provides the authorization gesture. | The website shows the message, “Registration complete.” | . ",
+    "url": "/help/docs/Getting%20Started/registration/",
+    "relUrl": "/docs/Getting%20Started/registration/"
+  },"145": {
+    "doc": "Roadmap",
+    "title": "Roadmap",
+    "content": " ",
+    "url": "/help/docs/Roadmap/roadmap/",
+    "relUrl": "/docs/Roadmap/roadmap/"
+  },"146": {
+    "doc": "Server Side Validation",
+    "title": "Using Authnull SAAS for server side validation",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/server_side_validation/#using-authnull-saas-for-server-side-validation",
+    "relUrl": "/docs/Getting%20Started/server_side_validation/#using-authnull-saas-for-server-side-validation"
+  },"147": {
+    "doc": "Server Side Validation",
+    "title": "Server Side Validation",
+    "content": " ",
+    "url": "/help/docs/Getting%20Started/server_side_validation/",
+    "relUrl": "/docs/Getting%20Started/server_side_validation/"
+  },"148": {
+    "doc": "Support for FIDO2/Webauthn",
+    "title": "Support for FIDO2/Webauthn",
+    "content": " ",
+    "url": "/help/docs/Other/FIDO2/support_webauthn/",
+    "relUrl": "/docs/Other/FIDO2/support_webauthn/"
+  },"149": {
+    "doc": " Authentication via WebAuthn",
+    "title": "Authentication Supported by Authnull",
+    "content": " ",
+    "url": "/help/docs/Authnull%20Overview/types_of_authentication/#authentication-supported-by-authnull",
+    "relUrl": "/docs/Authnull%20Overview/types_of_authentication/#authentication-supported-by-authnull"
+  },"150": {
+    "doc": " Authentication via WebAuthn",
+    "title": "Passwordless Authentication via OIDC",
+    "content": " ",
+    "url": "/help/docs/Authnull%20Overview/types_of_authentication/#passwordless-authentication-via-oidc",
+    "relUrl": "/docs/Authnull%20Overview/types_of_authentication/#passwordless-authentication-via-oidc"
+  },"151": {
+    "doc": " Authentication via WebAuthn",
+    "title": "Inbuilt Authenticator",
+    "content": ". | Windows Hello | Biometrics | Apple iCloud Keychain | . ",
+    "url": "/help/docs/Authnull%20Overview/types_of_authentication/#inbuilt-authenticator",
+    "relUrl": "/docs/Authnull%20Overview/types_of_authentication/#inbuilt-authenticator"
+  },"152": {
+    "doc": " Authentication via WebAuthn",
+    "title": "External Authenticator",
+    "content": ". | FIDO2 security keys | . ",
+    "url": "/help/docs/Authnull%20Overview/types_of_authentication/#external-authenticator",
+    "relUrl": "/docs/Authnull%20Overview/types_of_authentication/#external-authenticator"
+  },"153": {
+    "doc": " Authentication via WebAuthn",
+    "title": " Authentication via WebAuthn",
+    "content": " ",
+    "url": "/help/docs/Authnull%20Overview/types_of_authentication/",
+    "relUrl": "/docs/Authnull%20Overview/types_of_authentication/"
+  }
+}

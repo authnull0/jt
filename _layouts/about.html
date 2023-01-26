@@ -1,5 +1,11 @@
 ---
 layout: default
 ---
-
-{{ content }}
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include head.html %}
+<body>
+ <div class="demo" style="background-color: #000;width: 100%;height: 500px;">
+    {% include footer_custom.html %}
+ </div>
+</body>
+</html>
